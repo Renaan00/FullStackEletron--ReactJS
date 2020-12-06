@@ -1,0 +1,34 @@
+.container-products {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -305px;
+}
+.box-card {
+    padding: 10px 15px 15px 40px;
+}
+.card {
+    width: 18rem;
+    transition: all ease 0.2s;
+}
+.card:hover {
+    width: 18.5rem;
+    box-shadow: 10px 10px 40px rgb(104, 104, 104);
+    background-color: rgb(110, 110, 110);
+    color: white;
+}
+footer {
+    height: 30vh;
+    padding: 50px;
+}
+.container-list {
+    width: 15%;
+    cursor: pointer;
+}
+li:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+
+
